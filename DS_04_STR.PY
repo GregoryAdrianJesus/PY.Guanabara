@@ -9,7 +9,12 @@ for a in word:
         count+=1
 print (count)
 print ('how many character have the variable? \n', len(word))
-print ('it´s just letters ? \n',word.isalpha())
+print ('it`s just letters ? \n',word.isalpha())
 print ('contains only numbers ?\n', word.isnumeric())
 print('is alphanumeric? \n', word.isalnum())
+print('is it in capital letters? \n', word.isupper())
+print('it`s in lower case ? \n', word.islower())
+print('the first letter this in capitalized ? \n', word.istitle())
+
+
 
