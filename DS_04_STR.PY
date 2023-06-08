@@ -8,5 +8,8 @@ for a in word:
     if (a.isspace()) == True:
         count+=1
 print (count)
-print
+print ('how many character have the variable? \n', len(word))
+print ('it´s just letters ? \n',word.isalpha())
+print ('contains only numbers ?\n', word.isnumeric())
+print('is alphanumeric? \n', word.isalnum())
 
