@@ -1,0 +1,5 @@
+print ('\033[1;31m Enter a number and find out its double, triple and its square root')
+num = int (input('\033[04;33m Enter a number\n'))
+print(f'the double of the number {num}: {num * 2}')
+print (f' the triple is: {num * 3}')
+print (f'\033[01;32m the root is: {num ** (1/2):.2f}')
