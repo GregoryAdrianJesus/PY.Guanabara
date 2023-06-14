@@ -14,7 +14,7 @@ print ('\033[4;32m contains only numbers ?\n', word.isnumeric())
 print ('\033[4;34m is alphanumeric? \n', word.isalnum())
 print ('\033[4;31m is it in capital letters? \n', word.isupper())
 print ('\033[4;32m it`s in lower case ? \n', word.islower())
-print ('\033[4;35m the first letter this in capitalized ? \n', word.istitle())
+print ('\033[4;33m the first letter this in capitalized ? \n', word.istitle())
 
 
 
