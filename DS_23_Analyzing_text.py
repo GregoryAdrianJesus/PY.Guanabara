@@ -1,0 +1,7 @@
+print('Enter text and find out more details about the text')
+palavra = str(input('type the word or phrase: '))
+print('The text entered has',len(palavra),'letters')
+print('The text entered has',palavra.count('a'),'letter(s) A')
+print('The text entered in capital letter(s) is:',palavra.upper())
+print('The text entered in lowercase letter(s) is:',palavra.lower())
+print('With each first of the text capitalized',palavra.title())
